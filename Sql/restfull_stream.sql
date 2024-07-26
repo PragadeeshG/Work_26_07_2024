@@ -1,0 +1,15 @@
+create table if not exists restfull_stream(
+streaming_code varchar(255) not null,
+streaming_response_body varchar(255) null,
+write_to char null,
+output_stream Integer null,
+request_mapping_handler_adapter varchar(255) null,
+asynchronous varchar(255) null,
+task_executor varchar(255) null,
+exception varchar(255) null,
+annotation varchar(255) null,
+servletsId Integer null,
+servlet_name varchar(255) null,
+server_sent_event varchar(255) null,
+client_recieved_event varchar(255) null,
+constraint restfull_stream_pk primary key(streaming_code));

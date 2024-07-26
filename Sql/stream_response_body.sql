@@ -1,0 +1,16 @@
+create table if not exists stream_response_body(
+streaming_code varchar(255) not null,
+web_socket_configurer Integer null,
+register_web_socket_handlers varchar(255) null,
+web_socket_handler_registry varchar(255) null,
+add_handler varchar(255) null,
+web_socket_handler varchar(255) null,
+set_allowed_origins varchar(255) null,
+websocket varchar(255) null,
+configuration varchar(255) null,
+enable_web_socket varchar(255) null,
+web_socket_message varchar(255) null,
+web_socket_session varchar(255) null,
+text_web_socket_handler varchar(255) null,
+payload varchar(255) null,
+constraint stream_response_body_pk primary key(streaming_code));
